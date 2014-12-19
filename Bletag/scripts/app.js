@@ -18,13 +18,16 @@
       navigator.splashscreen.hide();
       var os = kendo.support.mobileOS,
                     statusBarStyle = os.ios && os.flatVersion >= 700 ? 'black-translucent' : 'black';
-      app = new kendo.mobile.Application(document.body, {       
+        
+      var application = new kendo.mobile.Application(document.body, {       
         transition: 'slide',    
         statusBarStyle: statusBarStyle,
         skin: 'flat',
         initial: 'views/LocationList.html'
       });
-
+      app.BleTag = {
+                main: application
+      };  
     }, false);  
 
 }(window));

@@ -1,9 +1,12 @@
 <div data-role="view" data-title="Summary Detail" data-layout="main" data-model="app.summaryDetailService.viewModel" data-show="app.summaryDetailService.show">    
     <ul data-role="listview" data-template="summaryTemplate" data-bind="source: summaryDetailDataSource"></ul>    
     <div id="fusionchartsTitle" class="km-group-title">Product Distribution</div>
-    <div id="fusioncharts"></div>
-    
-    <div id="distributionData"></div>
+    <div style="background-color:white" id="fusioncharts"></div>    
+    <div style="background-color:white" id="distributionData"></div>
+    <div id="lastProcessedImageTitle" class="km-group-title"></div>
+    <img id="lastProcessedImage" />
+    <div id="lastImageTitle" class="km-group-title"></div>
+    <img id="lastImage" />
 </div>
 <div data-role="layout" data-id="main">
     <div data-role="header">
