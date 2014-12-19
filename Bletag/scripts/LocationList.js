@@ -1,6 +1,6 @@
 (function (global) {
      var  app = global.app = global.app || {};          
-    LocationViewModel = kendo.data.ObservableObject.extend({
+     var LocationViewModel = kendo.data.ObservableObject.extend({
         locationDataSource: null,
         init: function () {
             var that = this,

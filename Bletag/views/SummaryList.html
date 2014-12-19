@@ -1,8 +1,4 @@
-<head>   
-    <script src="scripts/SummaryList.js"></script>
-</head>
-
-<div data-role="view" data-title="Summary List" data-layout="main" data-model="app.summaryListService.viewModel">
+<div data-role="view" data-title="Summary List" data-layout="main" data-model="app.summaryListService.viewModel" data-show="app.summaryListService.show">
     <ul data-role="listview" data-template="summaryTemplate" data-bind="source: summaryListDataSource"></ul>    
 </div>
 <div data-role="layout" data-id="main">
@@ -29,8 +25,9 @@
         <li>Switch to Test Server</li>
     </ul>
 </div>
-<script type="text/x-kendo-template" id="summaryTemplate">    
+<script type="text/x-kendo-template" id="summaryTemplate">
     <div id="listtemp" class="container">
+    <a id="locationList" href='views/SummaryDetail.html?assetId=#:AssetId#' data-role="listview-link">
 	<table style="width:100%">
 	<tr>
 	<td rowspan="4">
@@ -57,5 +54,7 @@
 	<td><div #if(LatestProcessedImageId!=0){#<div #if (Stock >= (((Columns*Shelves) * 60) / 100)) {# class="cooler-list-labelblack" #}else{# class="cooler-list-label"#} #>${app.summaryListService.getStockPercText(Columns, Shelves, Stock)}</div>#}#</div></td>
 	</tr>
 	</table>	
+    </a>
     </div>
+
 </script>
