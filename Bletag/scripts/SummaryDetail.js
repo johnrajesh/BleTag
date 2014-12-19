@@ -23,17 +23,22 @@
                            url: jsonUrlToLoad,
                            dataType: "json",
                            type: "GET"                           
-                      }  
+                      }                               
                 }
                 
             });            
             that.set("summaryDetailDataSource", dataSource);
-        }
+        }        
     });
     app.summaryDetailService = {  
         viewModel: new SummaryDetailDataModel(),
-        show: function(e){            
+        loadChart: function(){
             debugger;
+        },
+        loadDistributionData: function(){
+            debugger;
+        },
+        show: function(e){      
           app.summaryDetailService.viewModel.summaryDetailDataSource.read({Id : e.view.params.assetId});
         }        
     };    
