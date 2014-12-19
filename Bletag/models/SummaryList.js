@@ -1,7 +1,7 @@
 (function (global) {
     var  app = global.app = global.app || {};   
     var model = kendo.data.Model.define({
-    id: "personId", // the identifier of the model
+    id: "AssetId", // the identifier of the model
     fields: {
         'LocationId':{ type: 'int ' },
         'AssetTypeId': { type: 'int ' },
@@ -41,7 +41,7 @@
         'ForeignProduct':{ type: 'auto ' },
         'LatestProcessedImageId':{ type: 'int ' },
         'Stock':{ type: 'int ' },
-        'Id':{ mapping: 'AssetId', type: 'int' },
+        'AssetId':{ type: 'int' },        
         'DeviceStatus':{ defaultValue: 0, type: 'int' }       
         }        
     });    
