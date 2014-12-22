@@ -44,125 +44,119 @@
     background: #E6E6E6;
     margin-top: 4px;
     border-width: 0;
+    color: #CE1A24;
 }
 .km-flat .km-text {
     color: #CE1A24;
 }
 .container {
-	height: 80px;
+    height: 80px;
 }
-
-	.container table tr td {
-		width: 20%;
-	}
-
-		.container table tr td td {
-			width: 20%;
-		}
-
-			.container table tr td td td {
-				width: 20%;
-			}
-
-				.container table tr td td td td {
-					width: 20%;
-				}
-
-					.container table tr td td td td td {
-						width: 20%;
-					}
-
+.container table tr td {
+    width: 20%;
+}
+.container table tr td td {
+    width: 20%;
+}
+.container table tr td td td {
+    width: 20%;
+}
+.container table tr td td td td {
+    width: 20%;
+}
+.container table tr td td td td td {
+    width: 20%;
+}
 .cooler-list-image-small {
-	background-position: center center;
-	background-repeat: no-repeat;
-	width: 100%;
-	height: 40px;
-	background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 40px;
+    background-size: contain;
 }
 .cooler-list-item-device-status-base {
     float: left;
- 	width: 17px;
+    width: 17px;
     height: 17px;
     background-size: 15px 15px;
     background-repeat: no-repeat;
- }
+}
 .cooler-list-quesMarkImage {
-	background-image: url(../styles/images/unknown.png) !important;	
+    background-image: url(../styles/images/unknown.png) !important;
 }
 .cooler-list-image-notfound {
-	background-image: url(../styles/images/notfound.png) !important;	
+    background-image: url(../styles/images/notfound.png) !important;
 }
 .cooler-list-image-found {
-	background-image: url(../styles/images/found.png) !important;
+    background-image: url(../styles/images/found.png) !important;
 }
 .cooler-list-label {
-	color: #ff0000;
-	font-size: 8pt;
-	text-align: center;
+    color: #ff0000;
+    font-size: 8pt;
+    text-align: center;
 }
 .cooler-list-lowtemperature {
-	background-image: url(../styles/images/lowtemp.png) !important;
+    background-image: url(../styles/images/lowtemp.png) !important;
 }
 .cooler-list-hightemperature {
-	background-image: url(../styles/images/hightemp.png) !important;
+    background-image: url(../styles/images/hightemp.png) !important;
 }
 .cooler-list-inrangetemperature {
-	background-image: url(../styles/images/inrangetemp.png) !important;
+    background-image: url(../styles/images/inrangetemp.png) !important;
 }
-
 .cooler-list-brightlight {
-	background-image: url(../styles/images/brightlight.png) !important;
+    background-image: url(../styles/images/brightlight.png) !important;
 }
 .cooler-list-lowlight {
-	background-image: url(../styles/images/lowlight.png) !important;
+    background-image: url(../styles/images/lowlight.png) !important;
 }
 .cooler-list-darklight {
-	background-image: url(../styles/images/darklight.png) !important;
+    background-image: url(../styles/images/darklight.png) !important;
 }
 .cooler-list-humidity25 {
-	background-image: url(../styles/images/purity25.png) !important;
+    background-image: url(../styles/images/purity25.png) !important;
 }
 .cooler-list-humidity50 {
-	background-image: url(../styles/images/purity50.png) !important;
+    background-image: url(../styles/images/purity50.png) !important;
 }
 .cooler-list-humidity75 {
-	background-image: url(../styles/images/purity75.png) !important;
+    background-image: url(../styles/images/purity75.png) !important;
 }
 .cooler-list-humidity100 {
-	background-image: url(../styles/images/purity100.png) !important;
+    background-image: url(../styles/images/purity100.png) !important;
 }
-
 .cooler-list-stock25 {
-	background-image: url(../styles/images/stock25.png) !important;
+    background-image: url(../styles/images/stock25.png) !important;
 }
 .cooler-list-stock50 {
-	background-image: url(../styles/images/stock50.png) !important;
+    background-image: url(../styles/images/stock50.png) !important;
 }
 .cooler-list-stock75 {
-	background-image: url(../styles/images/stock75.png) !important;
+    background-image: url(../styles/images/stock75.png) !important;
 }
 .cooler-list-stock100 {
-	background-image: url(../styles/images/stock100.png) !important;
+    background-image: url(../styles/images/stock100.png) !important;
 }
 .cooler-list-image {
-	background-image: url(../styles/images/cooler.png) !important;
+    background-image: url(../styles/images/cooler.png) !important;
 }
 .cooler-list-image-container {
-	/*background-position: left;*/
-	background-repeat: no-repeat;
-	width: 65px;
-	height: 80px;
-	/*float: left;*/
-	background-size: 60px 75px;
-	margin-left: 5px;
+    /*background-position: left;*/
+    
+    background-repeat: no-repeat;
+    width: 65px;
+    height: 80px;
+    /*float: left;*/
+    
+    background-size: 60px 75px;
+    margin-left: 5px;
 }
 .cooler-list-labelblack {
-	color: black;
-	font-size: 8pt;
-	text-align: center;
+    color: black;
+    font-size: 8pt;
+    text-align: center;
 }
-.km-listview-link::after
-{
+.km-listview-link::after {
     display: none;
 }
 .circle {
@@ -184,11 +178,125 @@
     margin-left: auto;
     margin-right: auto;
 }
-.fit { /* set relative picture size */
+.fit {
+    /* set relative picture size */
+    
     max-width: 100%;
     max-height: 100%;
-  }
+}
 .center {
-display: block;
-margin: auto;
+    display: block;
+    margin: auto;
+}
+.location-list-image {
+    background-position: center right;
+    background-image: url(../styles/images/filter.png);
+    background-repeat: no-repeat;
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+    margin-top: 9px;
+    margin-right: 5px;
+}
+.dataview-base {
+    margin: 10px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-box-shadow: 5px 5px 1px #cacaca;
+    -webkit-box-shadow: 5px 5px 1px #cacaca;
+    box-shadow: 5px 5px 1px #cacaca;
+}
+.dataview-data-format {
+    font-size: 9pt;
+    padding: 5px 5px 5px 5px;
+}
+.cooler-list-header-text {
+    font-size: 11pt;
+    font-weight: bold;
+    line-height: 25px;
+}
+.gray-title-right {
+    color: #676464;
+    text-align: right;
+}
+.gray-title {
+    color: #676464;
+    float: left;
+    font-weight: normal;
+}
+.labelStyle {
+    font-weight: bold;
+}
+.cooler-list-image-mini-left {
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    background-size: contain;
+    float: left;
+}
+.cooler-door-open {
+    background-image: url(../styles/images/door_open_in.png) !important;
+}
+.item-data {
+    float: left;
+    padding-left: 8px;
+    font-weight: normal;
+    margin: 3px;
+}
+.cooler-door-open-duration {
+    background-image: url(../styles/images/timelineIcon.png) !important;
+}
+.labelStyle {
+    font-weight: bold;
+}
+.cooler-door-close {
+    background-image: url(../styles/images/door_arrow.png) !important;
+}
+.data-item-container {
+    width: 100%;
+}
+.data-item-container table tr td {
+    width: 14.2%;
+}
+.data-item-container table tr td td {
+    width: 14.2%;
+}
+.data-item-container table tr td td td {
+    width: 14.2%;
+}
+.data-item-container table tr td td td td {
+    width: 14.2%;
+}
+.data-item-container table tr td td td td td {
+    width: 14.2%;
+}
+.data-item-container table tr td td td td td td {
+    width: 14.2%;
+}
+.data-item-container table tr td td td td td td {
+    width: 14.2%;
+}
+.cooler-list-image-mini {
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 20px;
+    background-size: contain;
+}
+.cooler-list-sound {
+    background-image: url(../styles/images/sound_wave.png) !important;
+}
+.cooler-list-sales {
+    background-image: url(../styles/images/sales.png) !important;
+}
+.cooler-list-purity {
+    background-image: url(../styles/images/purity-new.png) !important;
+}
+.image-shadow {
+    width: 87px;
+    height: 82px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
+    border: 1px solid rgba(43, 124, 231, 0.8);
 }

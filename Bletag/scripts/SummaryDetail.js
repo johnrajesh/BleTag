@@ -64,7 +64,6 @@
         loadChart: function(summaryStockData){
             var chart = new FusionCharts({
                 type: "pie2d",
-                id: 'fu-distributionchart',
                 height: 220,
                 width: 320,
                 dataFormat: "json",
